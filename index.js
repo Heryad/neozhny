@@ -338,7 +338,7 @@ function showMyServers(chatId, userId) {
         .replace('{expires}', server.expires)
         .replace('{endpoint}', server.endpoint)
         .replace('{sshHost}', server.sshHost || '31.97.45.213')
-        .replace('{sshPassword}', server.sshPassword || '?Z9h3Fb6@DWmEMYD7)tI')
+        .replace('{sshPassword}', server.sshPassword || '(P0p64IB8QL#18jm4n@O')
         .replace('{usage}', server.usage) + '\n';
     });
   }
@@ -402,7 +402,7 @@ function processPurchase(chatId, userId, plan) {
   const expires = new Date();
   expires.setFullYear(expires.getFullYear() + 1); // 1 year subscription
 
-  const sshPassword = '?Z9h3Fb6@DWmEMYD7)tI';
+  const sshPassword = '(P0p64IB8QL#18jm4n@O';
 
   user.servers.push({
     name: serverName,
